@@ -1,0 +1,27 @@
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  height: 100%;
+  width: 100%;
+  gap: 0px 30px;
+}
+
+.web-link,
+.pass-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.weblink-input,
+.pass-input {
+  margin-top: 4px;
+}
+
+.weblinks-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: grey;
+  padding-left: 8px;
+}

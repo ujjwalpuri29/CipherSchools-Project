@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+#root {
+  --background: #fff;
+  --text-color: #222831;
+  --profile-cover: #fff;
+  --text-color2: #2c3d4f;
+  --text-box: rgba(34, 40, 49, 0.1);
+  --vd-control-bar: #f1f1f1;
+  --avatar: #f3912e;
+  --select-cont: rgba(34, 40, 49, 0.2);
+  --progress-color: rgba(34, 40, 49, 0.2);
+  --brand-color: #f3912e;
+  --brand-color-text: hsla(0, 0%, 100%, 0.95);
+  --brand-color-shade: rgba(243, 145, 46, 0.1);
+  --second-white: #f2f5fa;
+  --border-color: rgba(10, 30, 50, 0.1);
+  --shadow1: 0 0 12px rgba(10, 30, 50, 0.15);
+  --shadow2: 0 0 15px rgba(10, 30, 50, 0.2);
+  --shadow3: 0 0 20px rgba(10, 30, 50, 0.25);
+  --card-normal: #fff9f3;
+  --card-shadow: 0 0 8px rgba(10, 30, 50, 0.1);
+  --card-shadow-hover: 0 5px 16px rgba(10, 30, 50, 0.15);
+  --heading: rgba(8, 15, 15, 0.85);
+  --sub-heading: rgba(8, 15, 15, 0.7);
+  --paragraph: rgba(8, 15, 15, 0.75);
+  --second-button: rgba(8, 15, 15, 0.85);
+  --second-button-text: hsla(0, 0%, 100%, 0.95);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f2f5fa;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  background: var(--border-color);
+  border-radius: 0.5px;
+  margin: 1.5rem 0px 1rem;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-header {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 28px;
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 1;
+  transition: all 0.15s ease 0s;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: var(--background);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.input-text {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background: transparent;
+}
