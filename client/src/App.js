@@ -5,6 +5,7 @@ import WebLinks from "./components/Web-Links/web-links";
 import PasswordSection from "./components/Password/pwd-field";
 import InterestSection from "./components/Interest-Field/interest-field";
 import CipherMap from "./components/Cipher-Map/cipherMap";
+import Profinfo from "./components/Prof-Info/profInfo";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <CipherMap />
       <div className="underline"></div>
       <WebLinks />
+      <div className="underline"></div>
+      <Profinfo />
       <div className="underline"></div>
       <PasswordSection />
       <div className="underline"></div>

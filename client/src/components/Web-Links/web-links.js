@@ -154,7 +154,7 @@ const WebLinks = () => {
             <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
             <input
               className="weblinks-text input-text"
-              placeholder="Website"
+              placeholder="Your Website"
               name="website"
               disabled={edit}
               onChange={(e) => {

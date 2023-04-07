@@ -2,3 +2,53 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+.modal-window {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-input-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f2f5fa;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-content {
+  width: calc(100% - 30px);
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+.passError {
+  text-align: center;
+  font-size: 11px;
+  color: red;
+}
+
+.modal-btns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.cancel-btn {
+  background-color: #000 !important;
+  color: #fff !important;
+  margin-right: 20px;
+}
