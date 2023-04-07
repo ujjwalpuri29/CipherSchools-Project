@@ -3,6 +3,10 @@ import CalendarHeatmap from "react-calendar-heatmap";
 import "react-calendar-heatmap/dist/styles.css";
 import "./cipherMap.css";
 
+const today = new Date();
+const lastYear = new Date(today.valueOf());
+lastYear.setDate(lastYear.getDate() - 362);
+
 const CipherMap = () => {
   return (
     <div className="flex-container">
@@ -12,8 +16,8 @@ const CipherMap = () => {
       <div className="heatmap-container">
         <CalendarHeatmap
           viewBox="0 0 612 100"
-          startDate={new Date("2022-04-04")}
-          endDate={new Date("2023-04-06")}
+          startDate={lastYear}
+          endDate={today}
           values={[
             { date: "2023-01-01", count: 12 },
             { date: "2023-01-22", count: 122 },

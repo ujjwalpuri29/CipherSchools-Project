@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./web-links.css";
 
 const WebLinks = () => {
+  const [edit, setEdit] = useState(false);
+  const handleSubmit = () => {
+    setEdit(!edit);
+    console.log(edit);
+  };
+
   return (
     <div className="flex-container">
       <div className="top-row">
         <div className="left-header">ON THE WEB</div>
-        <div className="right-header">Edit</div>
+        <div className="right-header" onClick={handleSubmit}>
+          {edit ? "Save" : "Edit"}
+        </div>
       </div>
       <div className="input-grid">
         <div className="web-link">
