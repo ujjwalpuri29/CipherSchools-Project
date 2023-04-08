@@ -8,7 +8,7 @@ const app = express();
 connectDB();
 
 app.get("/", (req, res) => res.send("CipherSchools server is running!"));
-app.use("/users", userRoutes);
+// app.use("/users", userRoutes);
 
 const port = process.env.PORT || 8082;
 
