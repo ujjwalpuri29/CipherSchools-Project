@@ -71,7 +71,7 @@ const WebLinks = () => {
         <div className="web-link">
           <div className="web-label">Github</div>
           <div className="weblink-input input-box">
-            <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
+            <img src="https://www.cipherschools.com/static/media/Github.2d6b6c0c10a3b3aa7e3c7438770688f8.svg" />
             <input
               className="weblinks-text input-text"
               placeholder="Github"
@@ -91,7 +91,7 @@ const WebLinks = () => {
         <div className="web-link">
           <div className="web-label">Facebook</div>
           <div className="weblink-input input-box">
-            <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
+            <img src="https://www.cipherschools.com/static/media/Facebook.766939726b802e2c4354f9629feba07f.svg" />
             <input
               className="weblinks-text input-text"
               placeholder="Facebook"
@@ -111,7 +111,7 @@ const WebLinks = () => {
         <div className="web-link">
           <div className="web-label">Twitter</div>
           <div className="weblink-input input-box">
-            <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
+            <img src="https://www.cipherschools.com/static/media/Twitter.8dec5dacebf84c0be8bcaa33dee4a7a0.svg" />
             <input
               className="weblinks-text input-text"
               placeholder="Twitter"
@@ -131,7 +131,7 @@ const WebLinks = () => {
         <div className="web-link">
           <div className="web-label">Instagram</div>
           <div className="weblink-input input-box">
-            <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
+            <img src="https://www.cipherschools.com/static/media/Instagram.31ac5927c40b6d948dc3369a313cb7c9.svg" />
             <input
               className="weblinks-text input-text"
               placeholder="Instagram"
@@ -151,7 +151,7 @@ const WebLinks = () => {
         <div className="web-link">
           <div className="web-label">Website</div>
           <div className="weblink-input input-box">
-            <img src="https://www.cipherschools.com/static/media/LinkedIn.297c3e0e0411d3b8a7946c85a72f2bc7.svg" />
+            <img src="https://www.cipherschools.com/static/media/Website.cd72366beefca5afbc5259237cf87838.svg" />
             <input
               className="weblinks-text input-text"
               placeholder="Your Website"
