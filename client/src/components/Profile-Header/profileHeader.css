@@ -1,0 +1,92 @@
+.header {
+  background-color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 99 !important;
+}
+
+.banner {
+  background-image: url(https://www.cipherschools.com/static/media/ProfileCover.e525f2d51356332792cb.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.user-content {
+  background: linear-gradient(to right, #fff, transparent, #fff);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30px;
+}
+
+.user-pfp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfp-image {
+  margin-bottom: -8px;
+}
+
+.edit-profile {
+  margin-top: -8px;
+  cursor: pointer;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: bolder;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.user-email {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.followers {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .user-content {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .user-content {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .user-content {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .right-side {
+    display: none;
+  }
+}

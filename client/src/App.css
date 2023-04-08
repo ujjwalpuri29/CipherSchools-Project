@@ -45,7 +45,7 @@ body {
 
 .container {
   width: 100%;
-  padding: 0px 40px;
+  padding: 130px 30px 20px 30px;
 }
 
 .flex-container {
@@ -125,4 +125,28 @@ body {
 
 .pencil-icon {
   width: 16px;
+}
+
+.weblink-input,
+.pass-input,
+.prof-input {
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 130px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 130px 15px 15px 15px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    padding: 130px 20px 20px 20px;
+  }
 }

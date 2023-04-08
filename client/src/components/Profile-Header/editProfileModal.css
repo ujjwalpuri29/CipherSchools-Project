@@ -1,0 +1,27 @@
+.profile-modal-content {
+  max-width: 700px !important;
+  padding: 10px !important;
+}
+
+.profile-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+.profile-grid .flex-container .profile-field {
+  width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+  .profile-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .profile-grid .user-pfp {
+    padding: 30px;
+  }
+}
